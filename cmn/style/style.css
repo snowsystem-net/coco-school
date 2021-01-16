@@ -3,8 +3,6 @@
 .header .container {
   background-color: pink;
   text-align: center;
-  font-weight: bold;
-  font-size: 24px;
   padding: 10px;
 }
 
@@ -15,6 +13,14 @@
 }
 
 .header h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 20px;
   margin: 10px 0;
 }
 
