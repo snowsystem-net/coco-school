@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./cmn/style/destyle.css">
+  <link rel="stylesheet" href="./cmn/style/style.css">
+  <title>Coco School</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>ここのおべんきょうべや</h1>
+      <h1>おじいちゃんとおべんきょうしよう！</h1>
+    </div>
+  </header>
+  <main class="main">
+    <div class="contaier">
+      <div class="question">
+        あわせて　１０　になる　<br>すうじを　えらんでね
+      </div>
+      <img class="img-cherry" src="./cmn/img/fruit_cherry.png" alt="">
+      <div class="cherries">
+        <div id="cherry1" class="cherry">1</div>
+        <div id="cherry2" class="cherry">?</div>
+      </div>
+
+      <ul class="answer">
+        <li onclick="judge(this)">1</li>
+        <li onclick="judge(this)">2</li>
+        <li onclick="judge(this)">3</li>
+        <li onclick="judge(this)">4</li>
+        <li onclick="judge(this)">5</li>
+        <li onclick="judge(this)">6</li>
+        <li onclick="judge(this)">7</li>
+        <li onclick="judge(this)">8</li>
+        <li onclick="judge(this)">9</li>
+        <li onclick="judge(this)">10</li>
+      </ul>
+    </div>
+
+    <div class="result_OK" onclick="init()">
+      <div class="container">
+        <div class="circle">
+        </div>
+      </div>
+    </div>
+    <div class="result_NG" onclick="resultClear()">
+      <div class="container">
+        <div class="cross">
+          ×
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>

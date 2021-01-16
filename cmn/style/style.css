@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+.header .container {
+  background-color: pink;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.main .container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 10px 0;
+}
+
+.question {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.img-cherry {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.cherries {
+  position: relative;
+  top: -140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: -140px;
+}
+
+.cherry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  /* background-color: red; */
+  color: #ff0;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 64px;
+  margin: 25px;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.answer li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #c6161c;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.answer li:hover {
+  color: #ff0;
+}
+
+.result_OK,
+.result_NG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.result_OK .container,
+.result_NG .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border: solid 20px pink;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  color: pink;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400px;
+  color: pink;
+  cursor: pointer;
+}
