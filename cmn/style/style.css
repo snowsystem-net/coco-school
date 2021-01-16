@@ -102,7 +102,7 @@
 }
 
 .circle {
-  border: solid 20px pink;
+  border: solid 30px pink;
   border-radius: 50%;
   width: 300px;
   height: 300px;
@@ -116,7 +116,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 400px;
+  font-size: 500px;
   color: pink;
   cursor: pointer;
 }
